@@ -43,8 +43,18 @@ public double CalcularDistanciaDesde(Punto otro){
     return centroide.CalcularDistanciaDesde(otro);
 }
     public double calcularArea() {
-return Math.abs(x.getX() * (y.getY() - z.getY()) + y.getX() * (z.getY() - x.getY()) + z.getX() * (x.getY() -y.getY())) / 2;
+    return Math.abs(x.getX() * (y.getY() - z.getY()) + y.getX() * (z.getY() - x.getY()) + z.getX() * (x.getY() -y.getY())) / 2;
 
 }
+    public double CalcularPerimetro(){
+
+        double lado1 = x.CalcularDistanciaDesde(y);
+        double lado2 = y.CalcularDistanciaDesde(z);
+        double lado3 = z.CalcularDistanciaDesde(x);
+
+        return lado1 + lado2 + lado3;
+    }
+
 }
+
 
