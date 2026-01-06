@@ -1,3 +1,5 @@
+package Practica5A;
+
 public class Circulo {
     private Punto centro;
     private double radio;
@@ -14,7 +16,7 @@ public class Circulo {
     }
 
     public Circulo(double x, double y, double radio) {
-        this.centro = new Punto(0, 0);
+        this.centro = new Punto(x, y);
         this.radio = radio;
     }
 

@@ -1,3 +1,5 @@
+package Practica5A;
+
 public class Triangulo {
 
     private Punto x;
