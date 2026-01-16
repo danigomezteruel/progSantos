@@ -18,8 +18,15 @@ public class Tester {
         simba.invertirArray(array2);
         simba.mostrarArray(array2);
 
-
-
+        System.out.println("-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
+            OperacionesArraySTTC.cargarArray(array);
+            OperacionesArraySTTC.mostrarArray(array);
+            OperacionesArraySTTC.calcularMedia(array);
+        System.out.println("-------------------");
+            OperacionesArraySTTC.ordenarArray(array2);
+            OperacionesArraySTTC.mostrarArray(array2);
+            OperacionesArraySTTC.invertirArray(array2);
+            OperacionesArraySTTC.mostrarArray(array2);
 
     }
 }

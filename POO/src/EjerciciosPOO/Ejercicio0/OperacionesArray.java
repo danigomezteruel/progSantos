@@ -26,6 +26,7 @@ public class OperacionesArray {
     public void mostrarArray(int[] array) {
         System.out.println(Arrays.toString(array));
     }
+
     public void cargarArray(int[] array) {
             for (int i = 0; i < array.length; i++) {
                 array[i] = (int) (Math.random() * 10);
